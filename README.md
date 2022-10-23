@@ -9,3 +9,35 @@ João é um fanático por miojos; ele os adora, e, como era de se esperar, ele l
 - Dessa forma, o miojo ficará 3 minutos no fogo (do minuto 7 ao minuto 10). Assim, apesar do miojo levar apenas três minutos para ser cozido, ele precisa de 10 minutos para ficar pronto.
 
 Faça um programa que, dado o tempo de preparo do miojo, e os tempos das duas ampulhetas (ambos maiores que o tempo do miojo), determina o tempo mínimo necessário para o miojo ficar pronto ou se não é possível cozinhar o miojo no tempo exato com as ampulhetas disponíveis.
+
+```
+Execução
+ruby noodles.rb noodlesTime hourGlass1 hourGlass2
+
+ex: ruby noodles.rb 3 5 7
+
+noodlesTime = Tempo de preparo do miojo
+hourGlass1 = Tempo da ampulheta 1
+hourGlass2 = Tempo da ampulheta 2
+```
+--------------------------------------------------------------------
+
+## Distância entre Pontos
+
+Esse é mais simples, a ideia é criar um programa que recebe N pontos
+(latitude e longitude) e retorna a distância entre eles, ou seja a
+distância do primeiro ponto para todos os outros pontos, do segundo
+ponto para todos os outros pontos…e assim por diante...
+
+```
+Execução
+ruby distance.rb
+
+Para adicionar mais pontos (latitude e longitude) basta inserir dentro do array locations, dentro do arquivo distance.rb
+
+ex: locations = [
+    [3.1502978,101.6511437],
+    [3.1560868,101.6574744],
+    [3.1560268,101.6271740]
+  ]
+```

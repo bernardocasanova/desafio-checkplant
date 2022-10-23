@@ -33,7 +33,7 @@ ponto para todos os outros pontos…e assim por diante...
 Execução
 ruby distance.rb
 
-Para adicionar mais pontos (latitude e longitude) basta inserir dentro do array locations, dentro do arquivo distance.rb
+Para adicionar mais pontos (latitude e longitude) basta inserir dentro do array locations que esta no arquivo distance.rb
 
 ex: locations = [
     [3.1502978,101.6511437],
